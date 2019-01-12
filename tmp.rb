@@ -1,0 +1,3 @@
+fjs
+gsub(/
+	/) { |match|  }

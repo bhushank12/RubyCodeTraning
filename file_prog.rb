@@ -16,7 +16,7 @@ begin
 rescue Exception => e
 	puts e.message
 	cnt = cnt+1
-	retry if(cnt<3)
+	retry if( cnt<3 )
 	puts '---You Limit Your Chance---'
 	exit
 end
